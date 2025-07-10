@@ -2,10 +2,14 @@
 get_header();
 ?>
 
-<div class="main-div">
-    <p>
-        This website is getting build, thanks for visiting. 
-    </p>
+<div class="terminal">
+  <div class="terminal__window">
+    <h1>This website is under construction</h1>
+    <img
+        src="<?php echo get_template_directory_uri(); ?>/assets/under-construction.gif"
+        alt="loading bar">
+    
+  </div>
 </div>
 
 <?php

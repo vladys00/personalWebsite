@@ -4,3 +4,5 @@ function personalThemeAssets() {
 }
 
 add_action('wp_enqueue_scripts', 'personalThemeAssets');
+
+?>
