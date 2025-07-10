@@ -1,8 +1,22 @@
 body{
     font-family: "Fira Code", monospace;
 }
-.main-div{
+.terminal{
     width: 100vw;
     height: 100vh;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .terminal__window{
+        padding: 20px;
+        background-color: rgba(255, 225, 34, 0.649);
+        border-radius: 10px;
+        border:10px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
 }
