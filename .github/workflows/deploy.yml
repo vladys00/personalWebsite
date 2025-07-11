@@ -21,4 +21,4 @@ jobs:
         remote-user: u938030939
         private-ssh-key: ${{ secrets.SSH_KEY }}
         destination-path: /home/u938030939/domains/vladysk.com/public_html/wp-content
-        port: 65002
+        ssh-port: 65002
